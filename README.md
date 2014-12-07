@@ -4,8 +4,8 @@ Since I'll probably never bother to package this properly, I'm dumping this here
 
 Regardless, everything outside the vendor folder is released under the WTFPL 2.0 license. If you can manage to salvage anything out of it, do whatever you want with it. As for the rest:
 
-# [https://github.com/fancycode/MemoryModule](MemoryModule) - Copyright (c) 2004-2013 by Joachim Bauch - Released under the Mozilla Public License Version 2.0
-# [https://github.com/jmckaskill/luaffi](luaffi) - Copyright (c) 2011 James R. McKaskill. MIT same as Lua 5.1. See full license text in ffi.h.
+* [https://github.com/fancycode/MemoryModule](MemoryModule) - Copyright (c) 2004-2013 by Joachim Bauch - Released under the Mozilla Public License Version 2.0
+* [https://github.com/jmckaskill/luaffi](luaffi) - Copyright (c) 2011 James R. McKaskill. MIT same as Lua 5.1. See full license text in ffi.h.
 
 **Note** - While the ffi interface being used in this extension is derived from luajit's ffi interface, the behavior of some of the API deviates a tad from the original. The most notable difference is that you must explicitly import functions from their DLLs. (Unlike luajit, where you as long as the DLL is loaded, you can call imported functions using `ffi.C`)
 
