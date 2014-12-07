@@ -3,6 +3,7 @@
 *.ko
 *.obj
 *.elf
+*.res
 
 # Precompiled Headers
 *.gch
@@ -20,6 +21,7 @@
 *.so.*
 *.dylib
 
+
 # Executables
 *.exe
 *.out
@@ -27,3 +29,37 @@
 *.i*86
 *.x86_64
 *.hex
+
+# MSVC Stuff
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.exp
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.exp

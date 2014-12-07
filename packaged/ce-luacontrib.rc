@@ -1,0 +1,3 @@
+#include "resource.h"
+LUACONTRIB_FFI32 LUA_FFILIB "ffi32.dll"
+LUACONTRIB_FFI64 LUA_FFILIB "ffi64.dll"
