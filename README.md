@@ -1,3 +1,6 @@
+## Outdated
+Not sure when or what changed, but it looks like this plugin is no longer needed, as the ffi C-extension loads and works fine when the binaries are placed in the clibs32/clibs64 folders. I went ahead and added a new release containing the FFI binaries built against CE's customized Lua 5.3. (Up to date as of CE 6.5)
+
 ce-luacontrib
 =============
 Since I'll probably never bother to package this properly, I'm dumping this here. I wrote this quite a while back, so I don't really recall why I saw the need to package the lua extension as a resource and load it into memory. I think I recall there being some issue with Cheat Engine encountering memory access errors after it unloaded the plugin.
